@@ -414,6 +414,14 @@ mark,
   h2.mb-4 {
     text-align: center; /* Center align the heading on smaller screens */
   }
+   .counter-wrap.ftco-animate.d-flex {
+    text-align: center; /* Center align the counter wrap on smaller screens */
+  }
+  
+  .counter-wrap.ftco-animate.d-flex .text {
+    margin: 0 auto; /* Center align the content within the counter wrap */
+    max-width: 80%; /* Optionally limit the maximum width of the content */
+  }
 }
 
 .img-fluid {
