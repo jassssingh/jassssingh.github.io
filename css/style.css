@@ -396,28 +396,30 @@ mark,
 @media (max-width: 768px) {
   .img-about.img {
     width: 100%; /* Ensure the image takes full width on smaller screens */
+    display: block;
+    margin: 0 auto; /* Center align the image */
   }
 
   .about-img {
-    width: 50%; /* Set the width of the image container to 50% */
-    float: center; /* Float the image container to the left */
-  /*  margin-right: 20px; /* Add some spacing between the image and the text */
+    width: 100%; /* Set the width of the image container to 100% */
+    float: none; /* Remove float */
+    text-align: center; /* Center align the image container */
   }
 
   .about-info {
-    width: 50%; /* Set the width of the text container to 50% */
-    float: center; /* Float the text container to the right */
+    width: 100%; /* Set the width of the text container to 100% */
+    float: none; /* Remove float */
+    text-align: center; /* Center align the text container */
   }
-}
 
-@media (max-width: 768px) {
   h2.mb-4 {
     text-align: center; /* Center align the heading on smaller screens */
   }
-   .counter-wrap.ftco-animate.d-flex {
+
+  .counter-wrap.ftco-animate.d-flex {
     text-align: center; /* Center align the counter wrap on smaller screens */
   }
-  
+
   .counter-wrap.ftco-animate.d-flex .text {
     margin: 0 auto; /* Center align the content within the counter wrap */
     max-width: 80%; /* Optionally limit the maximum width of the content */
