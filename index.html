@@ -108,6 +108,9 @@
 .zoom-effect:hover {
   transform: scale(1.1);
 }
+.sticky {
+  display: none; /* Hide the navbar when scrolled down */
+}
 
 
 </style>
@@ -155,9 +158,6 @@
   // When the user scrolls the page, execute stickyNavbar
   window.onscroll = function() {stickyNavbar()};
 </script>
-.sticky {
-  display: none; /* Hide the navbar when scrolled down */
-}
 
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
