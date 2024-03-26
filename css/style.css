@@ -401,7 +401,7 @@ mark,
   .about-img {
     width: 50%; /* Set the width of the image container to 50% */
     float: center; /* Float the image container to the left */
-    margin-right: 20px; /* Add some spacing between the image and the text */
+  /*  margin-right: 20px; /* Add some spacing between the image and the text */
   }
 
   .about-info {
