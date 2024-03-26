@@ -406,7 +406,7 @@ mark,
 
   .about-info {
     width: 50%; /* Set the width of the text container to 50% */
-    float: right; /* Float the text container to the right */
+    float: left; /* Float the text container to the right */
   }
 }
 
@@ -425,7 +425,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 80%;
+  max-width: 100%;
   height: auto; }
 
 .img-thumbnail {
