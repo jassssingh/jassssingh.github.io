@@ -408,6 +408,13 @@ mark,
     padding-left: 15px; /* Float the text container to the right */
   }
 }
+
+@media (max-width: 768px) {
+  h2.mb-4 {
+    text-align: center; /* Center align the heading on smaller screens */
+  }
+}
+
 .img-fluid {
   max-width: 80%;
   height: auto; }
