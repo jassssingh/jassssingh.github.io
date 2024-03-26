@@ -391,23 +391,44 @@ mark,
   color: #6c757d; }
   .blockquote-footer::before {
     content: "\2014\00A0"; }
-@media (max-width: 768px) {
-  .img-about.img {
-    width: 100%; /* Ensure the image takes full width on smaller screens */
-  }
-
-  .about-img {
-    width: 50%; /* Set the width of the image container to 50% */
-    float: left; /* Float the image container to the left */
-    margin-right: 20px; /* Add some spacing between the image and the text */
-  }
-
-  .about-info {
-    width: 50%; /* Set the width of the text container to 50% */
-    float: right;
-    padding-left: 15px; /* Float the text container to the right */
-  }
+/* CSS for the about info */
+.about-info {
+    padding-left: 20px; /* Add some left padding to create space between the image and text */
 }
+
+/* CSS for the image */
+.img-about {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-about img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* CSS for overlay if needed */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    transition: 0.5s ease;
+}
+
+/* CSS for text on overlay if needed */
+.overlay .about-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Adjust text alignment as needed */
+    color: white; /* Text color */
+}
+
 
 @media (max-width: 768px) {
   h2.mb-4 {
