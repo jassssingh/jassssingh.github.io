@@ -400,13 +400,13 @@ mark,
 
   .about-img {
     width: 50%; /* Set the width of the image container to 50% */
-    float: left; /* Float the image container to the left */
+    float: center; /* Float the image container to the left */
     margin-right: 20px; /* Add some spacing between the image and the text */
   }
 
   .about-info {
     width: 50%; /* Set the width of the text container to 50% */
-    float: left; /* Float the text container to the right */
+    float: center; /* Float the text container to the right */
   }
 }
 
